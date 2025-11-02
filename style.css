@@ -26,8 +26,8 @@ folha de estilo do Site Halloween
     }
 }
 
-/* Pc*/
-@media (min-width: 1200px) {
+/* Pc*/ 
+@media (min-width: 1200px) { 
     body{
         background-color: #ff0000;
     }
