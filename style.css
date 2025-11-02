@@ -2,7 +2,34 @@
 folha de estilo do Site Halloween 
 */
 
-body {
-    background-color: red;
-    
+
+/*smartphone portrait*/
+
+/* smartphone landscape*/  /* essas são as resoluções */
+@media (min-width: 576px) {
+    body{
+        background-color: #0ff; /* para celular */
+    }
 }
+
+/* tablete portrait*/  /* para tablete */
+@media (min-width: 768px) {
+    body{
+        background-color: #ff0;
+    }
+}
+
+/* tablete landscape*/  /* resoluções mais antigas */
+@media (min-width: 992px) {
+    body{
+        background-color: #ff6600;
+    }
+}
+
+/* Pc*/
+@media (min-width: 1200px) {
+    body{
+        background-color: #ff0000;
+    }
+}
+
