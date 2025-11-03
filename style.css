@@ -21,8 +21,14 @@ body {
 /* Layout */
 .container {
     margin: 0 auto;
-    background-color: #ff6;    
+    background-color: #a83830;
+}
 
+/* Topo do Site*/
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 
 }
 
@@ -32,7 +38,7 @@ body {
 /* essas são as resoluções */
 @media (min-width: 576px) {
     body {
-        background-color: #0ff;
+        background-color: #a83830;
         /* para celular */
     }
 
@@ -45,7 +51,7 @@ body {
 /* tablete portrait*/
 @media (min-width: 768px) {
     body {
-        background-color: #ff0;
+        background-color: #a83830;
     }
 
     /* layout */
@@ -58,7 +64,7 @@ body {
 /* resoluções mais antigas */
 @media (min-width: 992px) {
     body {
-        background-color: #ff6600;
+        background-color: #a83830;
     }
 
     /* layout */
@@ -70,7 +76,7 @@ body {
 /* Pc*/
 @media (min-width: 1200px) {
     body {
-        background-color: #ff0000;
+        background-color: #a83830;
     }
 
     /* layout */
